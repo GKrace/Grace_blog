@@ -50,6 +50,7 @@ Cookie 另一个典型的应用是当登录一个网站时，网站往往会请�
 
 <img src="/images/storage_cookie.png" width="100%" height="100%">
 如此图显示，cookie主要有以下几个属性。在设置这些属性时，属性之间由一个分号和一个空格隔开。
+
 ```
 "key=name; expires=Sat Dec 21 2019 21:16:10 GMT; domain=XXXX.com; path=/; secure; HttpOnly"
 ```
