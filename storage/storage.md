@@ -55,7 +55,8 @@ sessionStorage.book = 'grace blog';
 
 ### globalStorage
 
-<p style="color:red;">globalStorage 已经废弃，替代品为 localStorage</p>
+<font color="#dd0000">globalStorage 已经废弃，替代品为 localStorage</font>
+
 Firefox2 中实现了 globalStorage 对象，这个对象的目的是跨会话存储数据，但是有特定的访问限制。要使用 globalStorage，首先要制定哪些域可以访问该数据，可以通过括号标记使用属性来实现
 
 ```
