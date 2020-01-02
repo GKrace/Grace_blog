@@ -51,7 +51,7 @@ sessionStorage.book = 'grace blog';
 
 ```
 
-<img src='./images/storage_localStorage.png' width="50%" height="50%">
+<img src='../images/storage_localStorage.png' width="50%" height="50%">
 
 ### globalStorage
 
