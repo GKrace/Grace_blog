@@ -52,7 +52,7 @@ cookie 包含一些数据：实际的 value（键值对形式），到期日期�
 #### 4. 为什么 cookie 在 http 请求传输，而 localStorage 不在 http 中传输？
 
 因为 http 标准请求头中是带有 cookie 的
-<img src="/images/storage_cookie2.png" width="100%" height="100%">
+<img src="./images/storage_cookie2.png" width="100%" height="100%">
 
 #### 5. cookie 的应用
 
@@ -68,7 +68,7 @@ Cookie 另一个典型的应用是当登录一个网站时，网站往往会请�
 
 #### 7. cookie 的属性
 
-<img src="/images/storage_cookie.png" width="100%" height="100%">
+<img src="./images/storage_cookie.png" width="100%" height="100%">
 如此图显示，cookie主要有以下几个属性。在设置这些属性时，属性之间由一个分号和一个空格隔开。
 ```
 "key=name; expires=Sat Dec 21 2019 21:16:10 GMT; domain=XXXX.com; path=/; secure; HttpOnly"
@@ -83,7 +83,7 @@ Cookie 另一个典型的应用是当登录一个网站时，网站往往会请�
   > 两者区别：expires 是 http/1.0 协议中的选项，在新的 http/1.1 协议中 expires 已经由 max-age 选项代替，两者的作用都是限制 cookie 的有效时间。expires 的值是一个时间点（cookie 失效时刻= expires），而 max-age 的值是一个以秒为单位时间段（cookie 失效时刻= 创建时刻+ max-age）。
   > 另外，max-age 的默认值是 -1(即有效期为 session )；若 max-age 有三种可能值：负数、0、正数。负数：有效期 session；0：删除 cookie；正数：有效期为创建时刻+ max-age
 - **secure：** 一个带有安全属性的 cookie 只有在请求使用 SSL 和 HTTPS 协议的时候才会被发送到服务器。然而，保密或敏感信息永远不要在 HTTP cookie 中存储或传输，因为整个机制从本质上来说都是不安全的，比如前述协议并不意味着所有的信息都是经过加密的。  
-  <img src="/images/storage_secure.png" width="50%" height="60%">
+  <img src="./images/storage_secure.png" width="50%" height="60%">
 
 - **HttpOnly：** 如果这个属性设置为 true，此 cookie 不能使用 JavaScript 经由 Document.cookie 属性、XMLHttpRequest 和 Request APIs 进行访问，以防范跨站脚本攻击（XSS）。
 
