@@ -53,6 +53,8 @@ sessionStorage.book = 'grace blog';
 
 <img src='../images/storage_localStorage.png' width="50%" height="50%">
 
+<img src='https://github.com/GKrace/Grace_blog/blob/master/images/storage_localStorage.png?raw=true' width="50%" height="50%">
+
 ### globalStorage
 
 <font color="#dd0000">globalStorage 已经废弃，替代品为 localStorage</font>
@@ -71,7 +73,7 @@ globalStorage 对象不是 Storage 的实例， 而具体的 `globalStorage["wro
 
 ### localStorage
 
-localStorage 方法存储的数据没有时间限制。第二天、第二周甚至是第二年之后，数据依然可用。永久存储除非手动删除 方法简介明了 容易操作。不能跨浏览器读取数据。不能给 localstorage 制定任何访问规则，规则事先就设定好了，要访问同一个 localStorage 对象，页面必须来自同一个域名（子域名无效），使用同一种协议，在同一个端口上，相当于`globalStorge[location.host]`
+localStorage 方法存储的数据没有时间限制。第二天、第二周甚至是第二年之后，数据依然可用。永久存储除非手动删除 方法简介明了 容易操作。不能跨浏览器读取数据。不能给 localstorage 制定任何访问规则，规则事先就设定好了，要访问同一个 localStorage 对象，页面/GKrace/Grace_blog/blob/master/images/storage_localStorage.png?raw=true 必须来自同一个域名（子域名无效），使用同一种协议，在同一个端口上，相当于`globalStorge[location.host]`
 localstorage 是 storage 的实例，其使用方法同 sessionstorage
 
 ### cookie localStorage sessionStorage 的区别
