@@ -53,8 +53,6 @@ sessionStorage.book = 'grace blog';
 
 <img src='../images/storage_localStorage.png' width="50%" height="50%">
 
-<img src='https://github.com/GKrace/Grace_blog/blob/master/images/storage_localStorage.png?raw=true' width="50%" height="50%">
-
 ### globalStorage
 
 <font color="#dd0000">globalStorage 已经废弃，替代品为 localStorage</font>
