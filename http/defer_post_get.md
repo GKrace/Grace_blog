@@ -73,13 +73,14 @@ HTTP 协议并未规定 GET 和 POST 的请求长度限制，所谓的请求长�
 2.各个浏览器和 web 服务器的最大长度总结
 
 - 浏览器
-  （1）IE：IE 浏览器（Microsoft Internet Explorer） 对 url 长度限制是 2083（2K+53），超过这个限制，则自动截断（若是 form 提交则提交按钮不起作用）。
-  （2）Firefox：火狐浏览器的 url 长度限制为 65536 字符，但实际上有效的 URL 最大长度不少于 100,000 个字符。
-  （3）Chrome：谷歌浏览的 url 长度限制超过 8182 个字符返回本文开头时列出的错误。
-  （4）Safari：Safari 的 url 长度限制至少为 80 000 字符。
-  （5）Opera：Opera 浏览器的 url 长度限制为 190 000 字符。Opera9 地址栏中输入 190000 字符时依然能正常编辑。
+
+  - IE：IE 浏览器（Microsoft Internet Explorer） 对 url 长度限制是 2083（2K+53），超过这个限制，则自动截断（若是 form 提交则提交按钮不起作用）。
+  - Firefox：火狐浏览器的 url 长度限制为 65536 字符，但实际上有效的 URL 最大长度不少于 100,000 个字符。
+  - Chrome：谷歌浏览的 url 长度限制超过 8182 个字符返回本文开头时列出的错误。
+  - Safari：Safari 的 url 长度限制至少为 80 000 字符。
+  - Opera：Opera 浏览器的 url 长度限制为 190 000 字符。Opera9 地址栏中输入 190000 字符时依然能正常编辑。
 
 - 服务器:
-  （1）Apache：Apache 能接受 url 长度限制为 8 192 字符
-  （2）IIS：Microsoft Internet Information Server(IIS)能接受 url 长度限制为 16384 个字符。这个是可以通过修改的（IIS7）
-  configuration/system.webServer/security/requestFiltering/requestLimits@maxQueryStringsetting.
+  - Apache：Apache 能接受 url 长度限制为 8 192 字符
+  - IIS：Microsoft Internet Information Server(IIS)能接受 url 长度限制为 16384 个字符。这个是可以通过修改的（IIS7）
+    configuration/system.webServer/security/requestFiltering/requestLimits@maxQueryStringsetting.
